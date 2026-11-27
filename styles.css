@@ -88,7 +88,7 @@ nav { display: flex; flex-wrap: wrap; column-gap: 1.8rem; row-gap: .2rem; }
   width: 10.9rem;
   height: 10.9rem;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 25%;
   background: #fff;
   border: .28rem solid #f0f1f2;
   border-radius: 50%;
