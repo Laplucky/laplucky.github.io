@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic homepage of Junjian Wang, a master's student at the Institute of Automation, Chinese Academy of Sciences.">
+  <title>Junjian Wang - Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="masthead">
+      <a class="site-name" href="#top">Homepage</a>
+      <nav aria-label="Main navigation">
+        <a href="#about-me">About Me</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#honors-and-awards">Honors and Awards</a>
+        <a href="#internships">Internships</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-layout">
+    <aside class="profile" aria-label="Profile and contact">
+      <img class="portrait" src="assets/portrait.jpg" alt="Portrait of Junjian Wang" width="208" height="258">
+      <h1>Junjian Wang</h1>
+      <p class="chinese-name" lang="zh-CN">王钧剑</p>
+      <p class="affiliation">Master's student at the Institute of Automation, Chinese Academy of Sciences</p>
+      <ul class="profile-links" aria-label="Contact and profiles">
+        <li>Beijing, China</li>
+        <li><a href="mailto:wangjunjian2025@ia.ac.cn">wangjunjian2025@<wbr>ia.ac.cn</a></li>
+        <li><a href="https://github.com/Laplucky">GitHub</a></li>
+        <li><a href="https://scholar.google.com/citations?user=iKF66JwAAAAJ&amp;hl=zh-CN">Google Scholar</a></li>
+      </ul>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <section id="about-me" aria-labelledby="about-title">
+        <h2 id="about-title"><span aria-hidden="true">👀</span> About Me</h2>
+        <p>Hello! I am a research master's student in the <strong>Foundation Model Research Center</strong> at the <strong>Institute of Automation, Chinese Academy of Sciences</strong>, co-advised by Prof. Jinqiao Wang and Assoc. Prof. Jianing Zhou. I received my bachelor's degree in Electronic and Information Engineering from <strong>Tianjin University</strong>.</p>
+        <p>My research focuses on <strong>LLM post-training with reinforcement learning</strong>, <strong>code and general-purpose agents</strong>, and <strong>multimodal spatial reasoning</strong>.</p>
+        <p>My recent work includes <a href="#m2a">M2A</a>, which uses model merging to transfer mathematical reasoning to language-model agents, and <a href="#madra">MADRA</a>, which uses multi-agent debate to assess physical risks in embodied planning. I also co-authored <a href="#sv-wam">SV-WAM</a>, a surround-view world-action model for autonomous driving.</p>
+      </section>
+
+      <section id="news" aria-labelledby="news-title">
+        <h2 id="news-title"><span aria-hidden="true">🔥</span> News</h2>
+        <ul class="dated-list">
+          <li><time datetime="2026-09">2026.09</time> Our <a href="https://arxiv.org/abs/2605.09879">M2A</a> was accepted by <strong>NeurIPS 2026</strong>.</li>
+          <li><time datetime="2026-09">2026.09</time> We released the <a href="https://arxiv.org/abs/2609.03602">SV-WAM</a> preprint.</li>
+          <li><time datetime="2026-04">2026.04</time> Our <a href="https://arxiv.org/abs/2511.21460">MADRA</a> was accepted by <strong>Findings of ACL 2026</strong>.</li>
+        </ul>
+      </section>
+
+      <section id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title"><span aria-hidden="true">📝</span> Publications</h2>
+        <article class="publication" id="m2a" aria-labelledby="m2a-title">
+          <a class="paper-image first-page" href="https://arxiv.org/pdf/2605.09879v2#page=1" aria-label="Open the first page of M2A">
+            <img src="assets/m2a-first-page.png" width="696" height="900" alt="First page of the M2A paper">
+          </a>
+          <div>
+            <h3 id="m2a-title">M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models</h3>
+            <p class="authors"><strong>Junjian Wang</strong>, Xin Zhou, Qiran Xu, Kun Zhan</p>
+            <p>A training-free model merging method that transfers mathematical reasoning while preserving an agent's behavior pattern.</p>
+            <p class="venue">NeurIPS 2026 · Main Track Poster</p>
+            <ul class="paper-links" aria-label="M2A resources">
+              <li><a href="https://arxiv.org/abs/2605.09879">Paper</a></li>
+              <li><a href="https://github.com/Laplucky/M2A">Code</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="publication" id="madra" aria-labelledby="madra-title">
+          <a class="paper-image madra-figure" href="https://aclanthology.org/2026.findings-acl.340/" aria-label="Read the MADRA paper">
+            <img src="assets/madra-planning.png" width="1600" height="900" alt="MADRA diagram connecting risk assessment, memory, planning, and self-evolution">
+          </a>
+          <div>
+            <h3 id="madra-title">MADRA: Multi-Agent Debate for Risk-Aware Embodied Planning</h3>
+            <p class="authors"><strong>Junjian Wang</strong>, Lidan Zhao, Xi Sheryl Zhang</p>
+            <p>Structured multi-agent debate for assessing physical risk before planning, with SafeAware-VH for evaluating unsafe-task rejection and over-rejection.</p>
+            <p class="venue">Findings of ACL 2026</p>
+            <ul class="paper-links" aria-label="MADRA resources">
+              <li><a href="https://aclanthology.org/2026.findings-acl.340/">Paper</a></li>
+              <li><a href="https://arxiv.org/abs/2511.21460">arXiv</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="publication" id="sv-wam" aria-labelledby="sv-wam-title">
+          <a class="paper-image" href="https://arxiv.org/abs/2609.03602" aria-label="Read the SV-WAM paper">
+            <img src="assets/sv-wam-overview.png" width="1000" height="467" alt="Architecture of the SV-WAM surround-view world-action model">
+          </a>
+          <div>
+            <h3 id="sv-wam-title">SV-WAM: An Efficient Surround-View World-Action Model for End-to-End Autonomous Driving</h3>
+            <p class="authors">Jinyang Wang, Shiwei Li, <strong>Junjian Wang</strong>, Zhiqiang Deng, Jianbin Gao, Yihang Zhao, Liu Liu, Yongjia Zhao, Jinlong Chen, Huirui Xu, Yifeng Pan, Kangwei Liu, Fan Ren, Ji Tao, Minghao Yang</p>
+            <p>A six-camera world-action model that learns from future video during training and predicts actions directly at inference.</p>
+            <p class="venue">arXiv preprint, <time datetime="2026-09">September 2026</time></p>
+            <ul class="paper-links" aria-label="SV-WAM resources">
+              <li><a href="https://arxiv.org/abs/2609.03602">Paper</a></li>
+              <li><a href="https://jinyangwang427.github.io/SV-WAM/">Project Page</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section id="honors-and-awards" aria-labelledby="honors-title">
+        <h2 id="honors-title"><span aria-hidden="true">🎖️</span> Honors and Awards</h2>
+        <ul class="dated-list">
+          <li><time datetime="2025">2025</time> Outstanding Graduate (<span lang="zh-CN">优秀毕业生</span>), Tianjin University.</li>
+          <li><time datetime="2024">2024</time> National Scholarship for Undergraduate Students (<span lang="zh-CN">国家奖学金</span>), Tianjin University.</li>
+        </ul>
+      </section>
+
+      <section id="internships" aria-labelledby="internships-title">
+        <h2 id="internships-title"><span aria-hidden="true">💻</span> Internships</h2>
+        <ul class="dated-list internships">
+          <li>
+            <p><time datetime="2026-07">2026.07</time> – <time datetime="2026-12">2026.12</time> <strong>Research Intern, Alibaba Amap</strong></p>
+            <ul>
+              <li><strong>Research Focus</strong> · Spatial Intelligence, Multimodal Reasoning, OPD.</li>
+              <li>Researched multimodal spatial reasoning and agents, including distilling dynamic spatial reasoning from video-based teachers into image-based models.</li>
+              <li>Built a data synthesis pipeline for evaluating dynamic spatial reasoning in complex scenes.</li>
+            </ul>
+          </li>
+          <li>
+            <p><time datetime="2025-12">2025.12</time> – <time datetime="2026-07">2026.07</time> <strong>Research Intern, Li Auto</strong></p>
+            <ul>
+              <li><strong>Research Focus</strong> · Coding Agent, LLM post-training, RLHF.</li>
+              <li>Researched post-training and model merging for coding agents, including <a href="#m2a">M2A</a>.</li>
+              <li>Worked on context management and summary quality for long-horizon agent tasks.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <span>Junjian Wang</span>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>
