@@ -108,6 +108,18 @@ nav { display: flex; flex-wrap: wrap; column-gap: 1.8rem; row-gap: .2rem; }
 .profile-links a { text-decoration: none; }
 .profile-links a:hover { text-decoration: underline; }
 
+.wechat-note {
+  display: none;
+  margin-top: .65rem;
+  padding-inline-start: .65rem;
+  border-inline-start: 2px solid var(--border);
+  color: var(--muted);
+  font-size: .9375rem;
+}
+
+.wechat-note:target { display: block; }
+.wechat-note strong { color: var(--heading); user-select: all; }
+
 main section + section { margin-top: 1.45rem; }
 
 main h2 {
@@ -247,6 +259,7 @@ main section > p + p { margin-top: .45rem; }
   .affiliation { margin-top: .25rem; }
   .profile-links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: .3rem 1rem; margin-top: .65rem; }
   .profile-links li + li { margin-top: 0; }
+  .wechat-note { grid-column: 1 / -1; }
   .publication { grid-template-columns: minmax(0, 8.2rem) minmax(0, 1fr); }
   .paper-image.first-page { height: 8.1rem; }
 }
